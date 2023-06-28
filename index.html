@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    
+     <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css" integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Miguel</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" style="--i:1;" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#acercademi" style="--i:2;" onclick="seleccionar()">ACERCA DE MI</a></li>
+                    <li><a href="#habilidades" style="--i:3;" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" style="--i:4;" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" style="--i:5;" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" style="--i:6;" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenido-img">
+                <img src="img/Miguel10.png" alt="">
+            </div>
+            <h1>MIGUEL CORONA</h1>
+            <h2>Business Management, Electrónica y Matemáticas</h2>
+            <h3>Full Stack Web Developer</h3>
+            <h4>Especialista en Reparación y Mantenimiento de Equipo y Redes</h4>
+            <h5>Diseño Gráfico</h5>
+            <h6>Bilingüe 100%: Inglés-Español</h6>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION ACERCA DE MI -->
+    <section id="acercademi" class="acercademi">
+        <div class="contenido-seccion">
+            <h2>Acerca de Mí</h2>
+            <p><span>Hola, mi nombre es Miguel Corona. </span>Tengo 51 años. Nací en Monterrey, Nuevo León. Actualmente vivo en Ciudad Acuña, Coahuila. Estudié en la Universidad de Oklahoma,
+            Estados Unidos, la carrera de Business Management con especialidad en Electrónica y Matemáticas. He tenido la fortuna de vivir gran parte de mi vida en una
+            ciudad que está a solo 15 minutos de la Presa de la Amistad. Tengo tantas cosas que agradecerle a mi padre y una de ellas es el que me haya fomentado la pesca deportiva. La pesca es mi pasión. Es mi pasatiempo favorito. 
+            Me gusta estar en contacto con la naturaleza ya que me relaja y me da paz.</p>
+
+
+        
+            <div class="fila">
+                <!-- DATOS PERSONALES -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            Junio 18, 1972               
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (52)877-147-7516
+                        </li>
+                        <li>
+                            <strong>Correo Electrónico</strong>
+                            mcorona@ gmail.com
+                        </li>
+                        <li>
+                            <strong>Página Web</strong>
+                            www.mcorona. netlify.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Acuña, Coahuila, México
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Asistente General Depto. Informática</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- INTERESES -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-fish"></i>
+                            <span>PESCA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-light fa-grill-hot"></i>
+                            <span>PARRILLA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-palette"></i>
+                            <span>DIBUJO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-biking"></i>
+                            <span>CICLISMO</span>
+                        </div>                        
+                        <div class="interes">
+                            <i class="fa-solid fa-person-running"></i>
+                            <span>CORRER</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-pool-8-ball"></i>
+                            <span>BILLAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-regular fa-video"></i>
+                            <span>PELICULAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-paw"></i>
+                            <span>MASCOTAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-light fa-boxing-glove"></i>
+                            <span>BOX</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-regular fa-glasses"></i>
+                            <span>SOLDADURA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- HABILIDADES TECNICAS -->
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="habilidad">
+                        <span>HTML & CSS</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso htmlcss">
+                                <span>10%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Javascript</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso javascript">
+                                <span>7%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>MongoDB</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso mongodb">
+                                <span>7%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>ExpressJS</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso expressjs">
+                                <span>5%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>React</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso react">
+                                <span>5%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>NodeJS</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso nodejs">
+                                <span>5%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>PhotoShop</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso photoshop">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Illustrator</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso illustrator">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Corel</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso corel">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Visual Basic</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso visualbasic">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Microsoft Office</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso office">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- HABILIDADES PROFESIONALES -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="habilidad">
+                        <span>Comunicación</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso comunicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Capacidad de Adaptación</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso adaptacion">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso equipo">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Creatividad</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso creatividad">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Dedicación</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso dedicacion">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="habilidad">
+                        <span>Ortografía</span>
+                        <div class="barra-habilidad">
+                            <div class="progreso ortografia">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col escolaridad">
+                    <h3>Escolaridad</h3>
+                    <div class="item estudios">
+                        <h4>Full Stack Web Developer</h4>
+                        <p class="escuela">Utel Universidad - Ucamp Bootcamp </p>
+                        <p class="ciudad">Universidad en Línea, México</p>
+                        <p class="fecha">Noviembre 2022 - Julio 2023</p>
+                        <p class="info">Diplomado de 8 meses, 100% online, Front end con HTML, CSS y JavaScript. Full Stack con React y NodeJS. Full Stack Apps con Bases de Datos NoSQL. MongoDB, ExpressJS, React, NodeJS, JavaScript.</p>
+                       
+                    </div>
+                    <div class="item estudios">
+                        <h4>Diplomado Diseño Gráfico</h4>
+                        <p class="escuela">Vanguardia Académica</p>
+                        <p class="ciudad">Zapopan, Jalisco, México</p>
+                        <p class="fecha">Febrero 2022 - Junio 2022</p>
+                        <p class="info">Diplomado de 20 semanas el cuál comprendio las siguientes materias: Corel Draw, Manipulación Fotográfica, Diseño Publicitario, Video, Efectos de Animación, Vectores, Foto Manipulación, Animación, Adobe MUS, Dreamweaver, Diseño Editorial, Diseño Aplicado</p>
+                       
+                    </div>
+                    <div class="item estudios">
+                        <h4>Computer Maintenance and Repair Certified Specialist</h4>
+                        <p class="escuela">Hemphill Schools</p>
+                        <p class="ciudad">Pasadena, California, U.S.A.</p>
+                        <p class="fecha">1998 - 2000</p>
+                        <p class="info">Certificación como especialista en Mantenimiento y Reparación de Equipo de Computo</p>
+
+                    </div>
+                    <div class="item estudios">
+                        <h4>Network Maintenance and Repair Certified Specialist</h4>
+                        <p class="escuela">Hemphill Schools</p>
+                        <p class="ciudad">Pasadena, California, U.S.A.</p>
+                        <p class="fecha">1998 - 2000</p>
+                        <p class="info">Certificación como especialista en Mantenimiento y Reparación de Redes</p>
+
+                    </div>
+                    <div class="item estudios">
+                        <h4>Programador Analista</h4>
+                        <p class="escuela">Centro Computacional Acuña</p>
+                        <p class="ciudad">Ciudad Acuña, Coahuila, México</p>
+                        <p class="fecha">1997 - 1998</p>
+                        <p class="info">Diploma con validez oficial SEP</p>
+
+                    </div>
+                    <div class="item estudios">
+                        <h4>Maestría en Administración de Empresas</h4>
+                        <p class="escuela">Sul Ross State University</p>
+                        <p class="ciudad">Del Rio, Texas, U.S.A.</p>
+                        <p class="fecha">1995 - Estudios parciales</p>
+                        <p class="info">Estudios parciales debido a falta de presupuesto</p>
+
+                    </div>
+                    <div class="item estudios">
+                        <h4>Business Management, Electronics and Math</h4>
+                        <p class="escuela">Southeastern Oklahoma State University</p>
+                        <p class="ciudad">Durant, Oklahoma, U.S.A.</p>
+                        <p class="fecha">1990 - 1994</p>
+                        <p class="info">Administración de Empresas con especialidad en Electrónica y Matemáticas</p>
+
+                    </div>
+                    <div class="item estudios">
+                        <h4>High School Diploma</h4>
+                        <p class="escuela">Del Rio High School</p>
+                        <p class="ciudad">Del Rio, Texas, U.S.A.</p>
+                        <p class="fecha">1988-1989</p>
+                        <p class="info">Diploma de High School</p>
+
+                    </div>
+                </div>
+
+                <div class="col laboral">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item trabajo">
+                        <h4>Asistente General</h4>
+                        <p class="lugar">Departamento de Informática, Presidencia Municipal</p>
+                        <p class="ciudad">Ciudad Acuña, Coah., México</p>
+                        <p class="fecha">Enero 2022 - Actual</p>
+                        <p>Soporte técnico al equipo de cómputo de cada uno de los departamentos del municipio y mantenimiento a redes e impresoras</p>
+
+                    </div>
+                    <div class="item trabajo">
+                        <h4>Responsable Call Center</h4>
+                        <p class="lugar">Departamento de Desarrollo Social, Presidencia Municipal</p>
+                        <p class="ciudad">Ciudad Acuña, Coah., México</p>
+                        <p class="fecha">Abril 2020 - Diciembre 2021</p>
+                        <p>Responsable del diseño, desarrollo, implementación y mantenimiento de programas para la captura de información en el área de 
+                            Call Center. Debido a la pandemia actual de Covid-19 el área de Call Center recibe gran parte de las solicitudes para apoyos 
+                            tales como despensas, sanitización domiciliaria, consultas médicas, apoyo con medicamentos, entre otros. En el Call Center se 
+                            generan los listados de la información antes mencionada para posteriormente canalizarlos al área correspondiente para su atención.</p>
+
+                    </div>
+                    <div class="item trabajo">
+                        <h4>Asistente General Sistema Integral de Inspección y Trámites Municipales</h4>
+                        <p class="lugar">Departamento SIIM-Sitram, Presidencia Municipal</p>
+                        <p class="ciudad">Ciudad Acuña, Coah., México</p>
+                        <p class="fecha">Agosto 2016 - Marzo 2020</p>
+                        <p>Responsable del diseño, desarrollo, implementación y mantenimiento de programa en Visual Basic para captura, seguimiento y pronta respuesta a notificaciones y reportes ciudadanos del Departamento SIIM-SITRAM.</p>
+
+                    </div>
+                    <div class="item trabajo">
+                        <h4>Asistente General</h4>
+                        <p class="lugar">Departamento de Informática, Presidencia Municipal</p>
+                        <p class="ciudad">Ciudad Acuña, Coah., México</p>
+                        <p class="fecha">Junio 2014 - Julio 2016</p>
+                        <p>Soporte técnico al equipo de cómputo de cada uno de los departamentos del municipio y mantenimiento a redes e impresoras</p>
+
+                    </div>
+                    <div class="item trabajo">
+                        <h4>Subgerente Administrativo</h4>
+                        <p class="lugar">Oficina, Motel Santa Fe</p>
+                        <p class="ciudad">Ciudad Acuña, Coah., México</p>
+                        <p class="fecha">Diciembre 2003 - Enero2008</p>
+                        <p>Atención directa al público. Responsable de coordinar las responsabilidades y tareas del personal.</p>
+
+                    </div>
+                    <div class="item trabajo">
+                        <h4>Gerente de Sistemas y Copropietario</h4>
+                        <p class="lugar">Compu-Master de Acuña</p>
+                        <p class="ciudad">Ciudad Acuña, Coah., México</p>
+                        <p class="fecha">Diciembre 1999 - Diciembre 2017</p>
+                        <p>Responsable de COMPRA-VENTA de equipo de cómputo y accesorios, como también servicio de reparación y mantenimiento 
+                            de los mismos. Mantenimiento e instalación de impresoras y redes. Distribuidor autorizado SKY. Experiencia en venta, 
+                            instalación y mantenimiento de antenas satelitales. Experiencia en fabricación e instalación de anuncios luminosos. 
+                            Experiencia en atención directa al público. Distribuidor autorizado SYSCOM. Experiencia en la instalación y 
+                            mantenimiento de sistemas de video vigilancia.</p>
+
+                    </div>
+                    <div class="item trabajo">
+                        <h4>Asistente General</h4>
+                        <p class="lugar">Departamento de Costos, Carolina Processing de México</p>
+                        <p class="ciudad">Ciudad Acuña, Coah., México</p>
+                        <p class="fecha">Enero 1995 - Diciembre 2000</p>
+                        <p>Responsable de descargar, procesar y verificar la validez de los datos de todos y cada uno de los procesos de las 
+                            plantas de la compañía con la finalidad de generar reportes para determinar el bono de producción para cada uno 
+                            de los empleados. El conocimiento a detalle de cada uno de los procesos era de suma importancia para poder 
+                            analizar dicha información.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-section">
+            <h2>Portafolio</h2>
+            <div class="proyectos">
+                <div class="proyecto">
+                    <a href="https://resplendent-baklava-ec1225.netlify.app/index.html" target="_blank">
+                        <img src="img/p1_landingpage.png" alt="">
+                        <div class="overlay">
+                            <h3>PROYECTO 1</h3>
+                            <p class="pro">Landing Page</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://monumental-longma-7441fb.netlify.app/" target="_blank">
+                        <img src="img/p2_aplicacioncrud.png" alt="">
+                        <div class="overlay">
+                            <h3>PROYECTO 2</h3>
+                            <p class="pro">Aplicación CRUD</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://iridescent-gumption-f0eadf.netlify.app/" target="_blank">
+                        <img src="img/p3_dashboardapp.png" alt="">
+                        <div class="overlay">
+                            <h3>PROYECTO 3</h3>
+                            <p class="pro">Dashboard App</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://resplendent-bunny-a167e0.netlify.app/" target="_blank">
+                        <img src="img/p4_restaurantapp.png" alt="">
+                        <div class="overlay">
+                            <h3>PROYECTO 4</h3>
+                            <p class="pro">Restaurant App</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://pelican-fishingshop.netlify.app/" target="_blank">
+                        <img src="img/p5_ecommerceapp.png" alt="">
+                        <div class="overlay">
+                            <h3>PROYECTO 5</h3>
+                            <p class="pro">Aplicación de Comercio Electrónico</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6_portafolio.png" alt="">
+                    <div class="overlay">
+                        <h3>PROYECTO 6</h3>
+                        <p class="pro">Portafolio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <h1 class="heading">Contacto</h1>
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fa-solid fa-envelope"></i> 
+                <h3>Mi Correo</h3>
+                <p>mcorona@gmail.com</p>   
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Mi Teléfono</h3>
+                <p>(52)877-147-7516</p>   
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Mi Dirección</h3>
+                <p>Acuña, Coahuila, México</p>   
+            </div>
+        </div>
+        <div class="row">
+            <form action="https://formsubmit.co/90209e8996901a1a68871de15debfeda" method="POST">
+                <h3>Datos de Contacto</h3>
+                <label for="name">Nombre</label>
+                <input type="text" name="nombre" placeholder="nombre" class="box">
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" name="correo" placeholder="correo" class="box">
+                <label for="telefono">Teléfono</label>
+                <input type="number" name="telefono" placeholder="teléfono" class="box">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" placeholder="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="Enviar Mensaje">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13914.772833636367!2d-100.94641755327906!3d29.320673663646904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86f594d929a5c43d%3A0xaa59bedf44e6c72f!2sZona%20Centro%2C%20Cd%20Acu%C3%B1a%2C%20Coah.!5e0!3m2!1ses!2smx!4v1687760165445!5m2!1ses!2smx" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <!-- SECCION FOOTER -->
+    <footer>
+        <div id="redes-sociales" class="redes">
+            
+            <!--  <img class="redes-logo" src=".//assets/logo pelican3.png" alt="">-->
+                <div class="logo-redes">
+                    <a href="#"><img class="weblogo" src=".//img/weblogo.png" alt=""></a>
+                <!--   <img src="./assets/logo fishing4.png" alt="logo de spotify">-->
+                   <!-- <img src="./assets/Fishing Shop Logo3.png" alt="logo de spotify">-->
+                </div>
+                <div class="container-redes">
+                    <div class="compania">
+                        <p class="titulos-final">MI PORTAFOLIO</p>
+                        <ul>
+                            <li><a href="#inicio">Inicio</a></li><br>
+                            <li><a href="#acercademi">Acerca de Mí</a></li><br>
+                            <li><a href="#habilidades">Habilidades</a></li><br>
+                            <li><a href="#curriculum">Curriculum</a></li>
+                        </ul>
+                    </div>
+                    <div class="enlaces">
+                        <p class="titulos-final">ENLACES UTILES</p>
+                        <ul>
+                            <li><a href="#">Ayuda</a></li><br>
+                            <li><a href="#">Reproductor Web</a></li><br>
+                            <li><a href="#portafolio">Portafolio</a></li><br>
+                            <li><a href="#contacto">Contacto</a></li><br>
+                        </ul>
+                    </div>
+                </div>
+                    <div class="nav-network">
+                        <ul>
+                            <li><a class="btn-4 btn-circle" href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a class="btn-4 btn-circle" href="#"><i class="bi bi-twitter"></i></a></li>
+                            <li><a class="btn-4 btn-circle" href="#"><i class="bi bi-instagram"></i></a></li>
+                            <li><a class="btn-4 btn-circle" href="#"><i class="bi bi-linkedin"></i></a></li>
+                            
+                        </ul>
+                    </div>
+            </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
