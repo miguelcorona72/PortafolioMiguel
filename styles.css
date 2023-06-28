@@ -739,7 +739,7 @@ html{
 
 .contacto .row form .box:focus,
 .contacto .row form textarea:focus{
-    border-color: brown;
+    border-color: rgb(16, 15, 15);
     
 
 }
@@ -766,7 +766,7 @@ html{
 
 .contacto .row form .btn:hover{
     scale: 1.01;
-    background-color: rgb(18, 113, 83);
+    background-color: rgb(45, 6, 58);
     color: yellow;
     border-color: black;
 }
