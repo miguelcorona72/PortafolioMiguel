@@ -1003,7 +1003,7 @@ nav.responsive ul li:hover{
         color: white;
         display: inline-block;
         text-decoration: none;
-        border: 1px solid rgb(245, 238, 23);
+        border: 1px solid rgb(23, 127, 245);
         border-radius: 100%;
         width: 42px;
         height: 42px;
@@ -1013,7 +1013,7 @@ nav.responsive ul li:hover{
         transition: .3s;
     }
     .inicio .contenido-banner .redes a:hover{
-        background-color: rgb(230, 252, 87);
+        background-color: rgb(32, 126, 203);
         color: black;
     }
 
