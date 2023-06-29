@@ -725,7 +725,7 @@ html{
 }
 .contacto .row form{
     flex: 1 1 55rem;
-    background: rgb(138, 177, 191);
+    background: #30434c;
     padding: 0 1rem;
     box-shadow: 0 .5rem 1rem black;
     border-radius: .5rem;
@@ -734,7 +734,7 @@ html{
 }
 .contacto .row .map{
     flex: 1 .5 25rem;
-    border: 1rem solid rgb(238, 235, 38);
+    border: 1rem solid rgb(255, 253, 112);
     box-shadow: 0 .5rem 1rem black;
     border-radius: .5rem;
     width: 100%;
@@ -745,12 +745,13 @@ html{
 .contacto .row form textarea{
     width: 100%;
     border-bottom: .1rem solid gray;
-    color: rgb(38, 130, 109);
+    color: rgb(38, 82, 130);
     text-transform: none;
     font-size: 1.2rem;
     padding: .5rem .5rem;
     margin: .5rem 0;
     border-radius: .5rem;
+    
 }
 
 .contacto .row form .box:focus,
@@ -787,6 +788,19 @@ html{
     border-color: black;
 }
 
+.contacto .row form h3{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 22px;
+    color: white;
+    
+}
+
+.contacto .row form label{
+    color: white;
+}
+
+
 /* FOOTER */
 
 /*.footer{
@@ -822,7 +836,7 @@ html{
    }
    
    .container-redes a:hover {
-       color: rgb(28, 165, 215);
+       color: rgb(44, 121, 255);
    }
    
    
@@ -865,7 +879,7 @@ html{
    }
    
    .btn-4 {
-       background-color: rgb(18, 106, 138);
+       background-color: rgb(18, 70, 138);
        color: #ffffff;
        padding: 0.7rem 0.7rem;
        border: none;
@@ -879,7 +893,7 @@ html{
    
    .btn-4:hover {
        background-color: rgb(242, 246, 247);
-       color: rgb(1, 1, 1);
+       color: rgb(18, 30, 164);
    }
    
    .btn-circle {
